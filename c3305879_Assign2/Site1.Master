@@ -1,0 +1,42 @@
+﻿<!-- Guide for Master Page borrowed from  https://www.c-sharpcorner.com/article/how-to-create-master-page-in-asp-net/ -->
+
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="c3305879_Assign2.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>MTG Hub</title>
+    <link href="../CSS/style.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+            
+    </asp:ContentPlaceHolder>
+</head>
+
+<body>
+    <header id="header">
+        <h1>MTG Hub</h1>
+    </header>
+    <nav id="navmenu">
+        <ul id="ul">
+            <li id="menu"><a href="Home.aspx">Home</a></li>
+            <li id="menu"><a href="Products.aspx">Product List</a></li>
+            <li id="menu"><a href="Contact.aspx">Contact</a></li>
+            <li id="menu"><a href="AboutUs.aspx">About Us</a></li>
+            <li id="menu" style="float:right"><a id="login" href="Cart.aspx"><asp:label id="lblCart" runat="server" Text="Cart (0)" Visible="false"></asp:label></a></li>
+            <li id="menu" style="float:right"><a id="login" href="Logout.aspx"><asp:label id="lblLogout" runat="server" Text="Logout" Visible="false"></asp:label></a></li>
+            <li id="menu" style="float:right"><a id="login" href="UserLogin.aspx"><asp:label id="lblLogin" runat="server" Text="Login" Visible="true"></asp:label></a></li>
+            <li id="menu" style="float:right"><a id="login" href="UserRegistration.aspx"><asp:label id="lblRegister" runat="server" Text="Register" Visible="true"></asp:label></a></li>
+        </ul>
+    </nav>
+    <asp:label id="lblWelcome" runat="server" Text="Not logged in!"></asp:label>
+
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+
+</html>

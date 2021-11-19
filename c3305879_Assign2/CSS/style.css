@@ -1,0 +1,44 @@
+﻿body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#navmenu {
+    padding: 5px;
+}
+
+#header {
+    text-align: center;
+}
+
+#ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #151515;
+    width: 100%;
+}
+
+#menu {
+    float: left;
+}
+
+    #menu a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+#register {
+    background-color: #42cbea;
+}
+
+li a:hover {
+    background-color: #5EF2FE;
+}
+
+#p {
+    background-color: #42cbea;
+}

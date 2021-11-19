@@ -1,0 +1,9 @@
+D:\Documents\.Uni\2021 - BIT 3rd Year\Sem 1\INFT3050\Assignment2\BusinessLayer\bin\Debug\BusinessLayer.dll
+D:\Documents\.Uni\2021 - BIT 3rd Year\Sem 1\INFT3050\Assignment2\BusinessLayer\bin\Debug\BusinessLayer.pdb
+D:\Documents\.Uni\2021 - BIT 3rd Year\Sem 1\INFT3050\Assignment2\BusinessLayer\bin\Debug\DataAccess.dll
+D:\Documents\.Uni\2021 - BIT 3rd Year\Sem 1\INFT3050\Assignment2\BusinessLayer\bin\Debug\DataAccess.pdb
+D:\Documents\.Uni\2021 - BIT 3rd Year\Sem 1\INFT3050\Assignment2\BusinessLayer\obj\Debug\BusinessLayer.csprojAssemblyReference.cache
+D:\Documents\.Uni\2021 - BIT 3rd Year\Sem 1\INFT3050\Assignment2\BusinessLayer\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+D:\Documents\.Uni\2021 - BIT 3rd Year\Sem 1\INFT3050\Assignment2\BusinessLayer\obj\Debug\BusinessLayer.csproj.CopyComplete
+D:\Documents\.Uni\2021 - BIT 3rd Year\Sem 1\INFT3050\Assignment2\BusinessLayer\obj\Debug\BusinessLayer.dll
+D:\Documents\.Uni\2021 - BIT 3rd Year\Sem 1\INFT3050\Assignment2\BusinessLayer\obj\Debug\BusinessLayer.pdb

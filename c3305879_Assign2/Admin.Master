@@ -1,0 +1,37 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Admin.master.cs" Inherits="c3305879_Assign2.Admin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>MTG Hub</title>
+    <link href="../CSS/style.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+            
+    </asp:ContentPlaceHolder>
+</head>
+
+<body>
+    <header id="header">
+        <h1>MTG Hub</h1>
+    </header>
+    <nav id="navmenu">
+        <ul id="ul">
+            <li id="menu"><a href="AdminHome.aspx">Admin Home</a></li>
+            <li id="menu"><a href="ManageProducts.aspx">Manage Products</a></li>
+            <li id="menu"><a href="UserList.aspx">User List</a></li>
+            <li id="menu" style="float:right"><a id="login" href="Logout.aspx">Logout</a></li>
+        </ul>
+    </nav>
+    <asp:label id="lblWelcome" runat="server" Text="Not logged in!"></asp:label>
+
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+
+</html>
